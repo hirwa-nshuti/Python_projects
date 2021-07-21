@@ -1,4 +1,4 @@
 # Python-Calculator-GUI
 A simple calculator made using tkinter
-<p>eval() run python expression within it and parses the value fed to it</p>
-
+<p>A calculator with it's interface. Did this project when I was practicing
+how to interact with the GUI frameworks.</p>
