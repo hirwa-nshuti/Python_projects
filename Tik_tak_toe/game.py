@@ -36,3 +36,7 @@ pg.display.set_caption("Tic Tac Toe")
 initiating_window = pg.image.load('modified_cover.png')
 x_img = pg.image.load('X_modified.png')
 y_img = pg.image.load('o_modified.png')
+
+initiating_window = pg.transform.scale(initiating_window, (width, height + 1))
+x_img = pg.transform.scale(x_img, (80, 80))
+y_img = pg.transform.scale(y_img, (80, 80))
