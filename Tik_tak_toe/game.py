@@ -17,3 +17,22 @@ height = 400
 white = (255, 255, 255)
 line_color = (0, 0, 0)
 board = [[None]*3, [None]*3, [None]*3]
+
+# The game Display
+
+# Initializing the game window
+pg.init()
+
+# Setting fps manually
+fps = 30
+
+CLOCK = pg.time.Clock()
+
+# Building the Display infrastructure
+screen = pg.display.set_mode((width, height + 100), 0, 32)
+pg.display.set_caption("Tic Tac Toe")
+
+# Loading Images and resizing them
+initiating_window = pg.image.load('modified_cover.png')
+x_img = pg.image.load('X_modified.png')
+y_img = pg.image.load('o_modified.png')
