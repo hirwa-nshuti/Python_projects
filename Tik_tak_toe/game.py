@@ -93,4 +93,6 @@ def check_win():
                          (width, (row + 1)*height / 3 - height / 6),
                          4)
             break
-
+    # winning columns
+    for col in range(0, 3):
+        pass
