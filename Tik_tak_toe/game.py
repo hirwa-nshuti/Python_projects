@@ -78,3 +78,19 @@ def draw_status():
     text_rect = text.get_rect(center=(width / 2, 500-50))
     screen.blit(text, text_rect)
     pg.display.update()
+
+
+def check_win():
+    global board, winner, draw
+
+    # winning rows
+    for row in range(0, 3):
+        if((board[row][0] == board[row][1] == board[row][2])
+           and (board[row][0] is not None)):
+            winner = board[row][0]
+            pg.draw.line(screen, (250, 0, 0),
+                         (0, (row + 1)*height/3 - height/6),
+                         (width, (row + 1)*height / 3 - height / 6),
+                         4)
+            break
+
