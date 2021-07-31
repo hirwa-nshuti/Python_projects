@@ -116,6 +116,7 @@ def check_win():
 
 
 def drawXO(row, col):
+    global board, XO
     if row == 1:
         posx = 30
 
@@ -140,7 +141,7 @@ def drawXO(row, col):
         screen.blit(x_img, (posy, posx))
         XO = 'o'
     else:
-        screen.blit((o_img, (posy, posx)))
+        screen.blit((y_img, (posy, posx)))
         XO = 'x'
     pg.display.update()
 
