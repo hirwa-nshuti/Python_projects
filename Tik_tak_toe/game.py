@@ -191,6 +191,7 @@ while True:
             pg.quit()
             sys.exit()
         elif event.type is MOUSEBUTTONDOWN:
+            print("HELLO")
             user_click()
             if winner or draw:
                 reset_game()
