@@ -113,5 +113,3 @@ def check_win():
 
     if all([all(row) for row in board]) and winner is None:
         draw = True
-
-
