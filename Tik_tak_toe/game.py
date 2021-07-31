@@ -95,4 +95,8 @@ def check_win():
             break
     # winning columns
     for col in range(0, 3):
-        pass
+        if((board[0][col] == board[1][col] == board[2][col])
+           and (board[0][col] is not None)):
+            winner = board[0][col]
+            pg.draw.line(screen, (250, 0, 0), ((col + 1) * width / 3 - width / 6, 0),
+                         ((col + 1) * width / 3 - width / 6, height), 4)
