@@ -147,6 +147,7 @@ def drawXO(row, col):
 
 
 def user_click():
+    # Getting user position
     x, y = pg.mouse.get_pos()
 
     if x < width / 3:
