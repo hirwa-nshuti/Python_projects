@@ -1,7 +1,6 @@
 # Python Dictionary
 
 Webster's Unabridged Dictionary
-<<<<<<< HEAD
 
 ## Dataset used
 
@@ -30,10 +29,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-=======
-## Dataset used:
-Json scrapped file from: [Matt Reagan's](https://github.com/matthewreagan/WebstersEnglishDictionary) repository
->>>>>>> bb72aca47d4448ee6b17731d6dbcdb48b64b74cf
 
 Original text file: [Gutenberg Project](https://www.gutenberg.org/ebooks/29765)
 Licenced under:
@@ -50,7 +45,6 @@ Licenced under:
 |Data|Type|Source|
 |----|-----|----|
 |dictionary original dataset| .txt|[Gutenberg Project](https://www.gutenberg.org/ebooks/29765)|
-<<<<<<< HEAD
 |scrapped dictionary Json dataset| .json|[adambom](https://github.com/adambom/dictionary)|
 
 ## Usage
@@ -93,6 +87,3 @@ Thanks for using our dictionary
 
 ## References
 
-=======
-|scrapped dictionary Json dataset| .json|[Matt Reagan](https://github.com/matthewreagan/WebstersEnglishDictionary)|
->>>>>>> bb72aca47d4448ee6b17731d6dbcdb48b64b74cf
